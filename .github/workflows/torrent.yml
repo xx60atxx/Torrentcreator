@@ -9,7 +9,7 @@ env:
   comment: "ios 14.2.ipsw"
   url: https://api.ipsw.me/v4/ipsw/download/iPhone10,3/18B92
   file_name: "iPhone10,3.ipsw"
-  piece_size: 19 # Check the README.md for recommended piece size
+  piece_size: 2^22 = 4 194 304 = 4096 KiB #for filesizes between 4 GiB - 8 GiB
       
 jobs:
   create:
